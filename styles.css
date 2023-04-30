@@ -1,0 +1,170 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 19px;
+
+}
+
+div {
+  display: flex;
+}
+
+.one {
+  width: 30%;
+  background-color: #F4D28E;
+  display: block;
+  float: left;
+  height: 100vh;
+  overflow: hidden;
+}
+
+form {
+  font-weight: bold;
+  padding: 8% 30%;
+  font-family: 'Poppins', sans-serif;
+  color: #000080;
+  margin-right: 0;
+}
+
+
+img {
+  display: block;
+  width: 110%;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  border-radius: 9px;
+  border: 1px solid transparent;
+  background-color: #E5E1DA;
+  margin: 5px 0 0 0;
+  font-size: 16px;
+  width: 100%;
+  padding: 0px 0px 0px 10px;
+  min-height: 2.5em;
+}
+
+.two {
+  margin-top: 0;
+  padding: 0;
+  background-color: #F4F1EA;
+  height: 100vh;
+  overflow: auto;
+}
+
+.icon {
+  font-family: 'Lobster Two', cursive;
+  color: #41534D;
+  font-size: 4.5vw;
+  padding-top: 10px;
+  padding-left: 19%;
+  margin-bottom: 0;
+}
+
+.age {
+  padding-left: 30px;
+}
+
+.about {
+  padding-bottom: 9%;
+  border-bottom: 1.5px solid #92908C;
+}
+
+.radio1,
+.radio2 {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+}
+
+.radio2 {
+  margin: 0px 10px 0px 40px
+}
+
+.description {
+  color: #41534D;
+  padding-top: 7%;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Lobster Two', cursive;
+  padding-left: 9%;
+}
+
+input[type="number"]:hover,
+input[type="text"]:hover,
+input[type="email"]:hover,
+select:hover,
+textarea:hover {
+  border: 1px solid #FFD24C;
+  transition-delay: 0.18s;
+  box-shadow: 0 0 9px 0 #F4D28E;
+  background-color: #f4f1e1;
+  ;
+}
+
+input[type="radio"] {
+  transition-delay: 0.18s;
+  accent-color: #BA415F;
+}
+
+.inline {
+  transition-delay: 0.18s;
+  accent-color: #BA415F;
+}
+
+.terms {
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+a {
+  color: #000080;
+  text-decoration: none;
+}
+
+.submit {
+  border-radius: 9px;
+  border: 1px solid transparent;
+  background-color: #F4D28E;
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+  width: 39%;
+  min-height: 2.5em;
+  padding: 0;
+  background: linear-gradient(to left, #F4D28E 50%, #ea4c89 50%) right;
+  background-size: 310%;
+  transition: 0.5s ease-out;
+  border-radius: 35px;
+
+}
+
+.submit:hover {
+  background-position: left;
+}
+
+.gend,
+.name,
+.email,
+.age {
+  padding-bottom: 20px;
+}
+
+.gend {
+  margin-bottom: -10px;
+}
+
+.inline {
+  margin-bottom: 50px;
+}

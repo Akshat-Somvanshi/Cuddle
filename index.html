@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>
+    Cuddle Signup Page
+  </title>
+</head>
+
+<body>
+  <div class="one">
+    <h1 id="title" class="icon">Cuddle</h1>
+    <img
+      src="https://cdn.dribbble.com/users/76454/screenshots/6596459/drbbb_4x.png?compress=1&resize=1000x750&vertical=top"
+      class="dating" alt="art" />
+    <p class="description" id="description">Engineer your love life on Cuddle</p>
+  </div>
+  <div class="two">
+    <form id="survey-form" action="swipe-ui.html">
+      <h1 id="title"></h1>
+      <h1 class="about">
+        Sign up to Cuddle
+      </h1>
+      <div class="first">
+        <label for="name" id="name-label" class="name"> Name <input id="name" type="text" class="text" required
+            placeholder="" />
+        </label>
+        <label class="age" for="number" id="number-label">
+          Age
+          <input id="number" type="number" required class="age" min="18" max="100" placeholder=" " />
+        </label>
+      </div>
+      <label for="email" id="email-label" class="email">
+        Email
+        <input id="email" type="email" class="email" placeholder=" " required />
+      </label>
+      <div class="radio1">
+        <input type="radio" id="gender1" name="gender" value="male" class="radio1" /><label for="gender1" class="gend">
+          Male
+        </label>
+        <input type="radio" id="gender2" name="gender" value="female" class="radio2" /><label for="gender2"
+          class="gend"> Female
+        </label>
+      </div>
+
+      <label for="terms-and-conditions" class="terms"><input id="terms-and-conditions" type="checkbox" required
+          name="terms-and-conditions" class="inline" value="yes" />I agree with the <a class="link"
+          href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        <input id="submit" value="Create Account" type="submit" class="submit" />
+    </form>
+  </div>
+</body>
